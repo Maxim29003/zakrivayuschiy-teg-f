@@ -1,1 +1,21 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+
+:root {
+  --font-family-main: "Inter", sans-serif;
+  --font-family-secondary: "PressStart2P", sans-serif;
+
+  --font-size-header-large: clamp(3rem, 2.6259rem + 1.5962vw, 4.0625rem);
+  --font-size-header-small: clamp(0.875rem, 0.6769rem + 0.8451vw, 1.4375rem);
+  --font-size-small: 14px;
+  --font-size-default: 18px;
+  --font-weight-regular: 400;
+  --font-weight-bold: 700;
+  --color-primary: #000;
+  --color-secondary: #fff;
+
+  --gap-card-item: 50px;
+  --gap-card: 25px;
+  --gap-actions: 12px;
+
+  --padding-block-header: 100px;
+}
