@@ -13,12 +13,20 @@
   --color-primary: #000;
   --color-secondary: #fff;
 
+  --color-heart-contour: #000;
+  --color-heart-main-body: #000;
+  --color-heart-core: #fff;
+  --color-heart-sparks: #FF0000;
+
+  
+
   --gap-card-item: 50px;
   --gap-card-content: 27px;
   --gap-card-container: 25px;
   --gap-actions: 12px;
   --gap-footer-button: 8px;
 
+  --right-card-image-text: clamp(0.688rem, 1.315vw + 0.379rem, 1.563rem);
 
   --padding-card-container: 25px;
 
