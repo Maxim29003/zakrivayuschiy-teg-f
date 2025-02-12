@@ -17,7 +17,7 @@
   padding-inline: var(--padding-inline);
   color: var(--color-primary);
   font-family: var(--font-family-main);
-  font-weight: var(--font-weight-regular);
+  font-variation-settings: "wdth" var(--font-weight-regular);
   font-size: var(--font-size-default);
 
   background-image: repeating-linear-gradient(
@@ -43,14 +43,14 @@
 .button-bordered {
   border: var(--border-large);
   font-family: var(--font-family-secondary);
-  font-variation-settings: "wdth" var(--font-weight-regular);
+  font-weight: var(--font-weight-regular);
   font-size: var(--font-size-small);
 }
 
 .header {
   padding-block: var(--padding-block-header);
   font-family: var(--font-family-secondary);
-  font-variation-settings: "wdth" var(--font-weight-regular);
+  font-weight: var(--font-weight-regular);
 }
 
 .header,
@@ -89,7 +89,7 @@
 
 .card__title {
   padding: 3.5px 10px 5.5px 10px;
-  font-weight: var(--font-weight-bold);
+  font-variation-settings: "wdth" var(--font-weight-bold);
   font-size: var(--font-size-default);
 }
 
@@ -102,7 +102,7 @@
   top: 25px;
   right: var(--right-card-image-text);
   font-family: var(--font-family-secondary);
-  font-variation-settings: "wdth" var(--font-weight-regular);
+  font-weight: var(--font-weight-regular);
   font-size: var(--font-size-small);
   text-shadow: -1px 0 var(--color-secondary), 0 1px var(--color-secondary),
     1px 0 var(--color-secondary), 0 -1px var(--color-secondary);
@@ -305,7 +305,7 @@ body:has(.dialog[open]) {
   align-items: center;
   gap: var(--gap-dialog);
   font-family: var(--font-family-secondary);
-  font-variation-settings: "wdth" var(--font-weight-regular);
+  font-weight: var(--font-weight-regular);
   font-size: var(--font-size-small);
   line-height: 1.5;
   text-transform: uppercase;
