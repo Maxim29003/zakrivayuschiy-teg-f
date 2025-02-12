@@ -13,27 +13,25 @@
   --color-primary: #000;
   --color-secondary: #fff;
 
-  --color-heart-contour: #000;
-  --color-heart-main-body: #000;
-  --color-heart-core: #fff;
-  --color-heart-sparks: #FF0000;
+  --color-heart-black: #000;
+  --color-heart-red: #ff0000;
 
-  
+  --border-large: 2px solid var(--color-primary);
+  --border-small: 1px solid var(--color-primary);
+  --border-transparent: 2px solid transparent;
 
   --gap-card-item: 50px;
   --gap-card-content: 27px;
   --gap-card-container: 25px;
-  --gap-actions: 12px;
+  --gap-actions: 4px;
   --gap-footer-button: 8px;
+  --gap-header-title: 20px;
+  --gap-dialog: 20px;
 
   --right-card-image-text: clamp(0.688rem, 1.315vw + 0.379rem, 1.563rem);
-
   --padding-card-container: 25px;
-
   --padding-block-header: 100px;
-
   --padding-inline: clamp(0rem, 34.742vw - 8.143rem, 23.125rem);
-
   --padding-header-title-inline: clamp(0.875rem, 9.953vw - 1.458rem, 7.5rem);
   --padding-header-title-block: clamp(7.5rem, 0.751vw + 7.324rem, 8rem);
 }
