@@ -146,8 +146,8 @@
   filter: hue-rotate(45deg) brightness(105%);
 }
 
-.filter-sepia-saturate {
-  filter: sepia(40%) saturate(120%);
+.filter-sepia {
+  filter: sepia(40%);
 }
 
 .filter-contrast-brightness {
