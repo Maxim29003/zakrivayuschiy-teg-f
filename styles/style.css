@@ -108,6 +108,7 @@
   top: 25px;
   right: var(--right-card-image-text);
   z-index: 1;
+  opacity: 0.5;
   font-family: var(--font-family-secondary);
   font-weight: var(--font-weight-regular);
   font-size: var(--font-size-small);
@@ -278,6 +279,8 @@
   border: var(--border-large);
   padding: 30px;
   background-color: var(--color-secondary);
+  min-inline-size: 341px;
+  max-inline-size: 353px;
 }
 
 body:has(.dialog[open]) {
@@ -305,12 +308,13 @@ body:has(.dialog[open]) {
 }
 
 .dialog__floppy {
+  flex: 0 0 39px;
   inline-size: 39px;
   block-size: 39px;
 }
 
 .dialog__button {
-  padding-block: 12.5px;
+  padding-block: 9px;
   text-transform: uppercase;
   inline-size: 100%;
 }
